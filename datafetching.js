@@ -1,4 +1,4 @@
-function renderPrimeDominantRows(rows, columns, cellFn){
+function griddatafetching(rows, columns, cellFn){
     for(let i=1 ; i<=rows ; i++){
         let row = '';
         let primeCount=0;
@@ -64,6 +64,7 @@ function getType(sum){
         return 'O';
 };
 
-renderPrimeDominantRows(5,5,cellFn);
+griddatafetching(5,5,cellFn);
+
 
 
